@@ -26,12 +26,15 @@
 ```
 ---
 
-### Запуск программы
+### 🚀 Запуск программы
+
 1. Клонировать репозиторий
-2. Запустить через Docker
-Сборка - docker build -t vector-editor .    
-Запуск - docker run -it --name vector-cli vector-editor
----
+2. Собрать Docker образ
+3. Запустить контейнер
+```bash
+docker build -t vector-editor .
+docker run -it --name vector-cli vector-editor
+```
 
 ### 🖥 Демонстрация работы
 
