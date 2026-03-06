@@ -42,10 +42,10 @@
 ![Создание фигуры](docs/Menu.jpg)
 
 ### Создание Точки
-![Создание фигуры](docs/Create Point.jpg)
+![Создание фигуры](docs/Create_Point.jpg)
 
 ### Создание Линии
-![Создание фигуры](docs/Create Line.jpg)
+![Создание фигуры](docs/Create_Line.jpg)
 
 ### Создание Квадрата
 ![Создание фигуры](docs/Create Square.jpg)
