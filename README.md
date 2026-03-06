@@ -42,25 +42,25 @@
 ![Создание фигуры](docs/Menu.jpg)
 
 ### Создание Точки
-![Создание фигуры](docs/Create_Point.jpg)
+![Создание фигуры](docs/Create-Point.jpg)
 
 ### Создание Линии
-![Создание фигуры](docs/Create_Line.jpg)
+![Создание фигуры](docs/Create-Line.jpg)
 
 ### Создание Квадрата
-![Создание фигуры](docs/Create Square.jpg)
+![Создание фигуры](docs/Create-Square.jpg)
 
 ### Создание Круга
-![Создание фигуры](docs/Create Circle.jpg)
+![Создание фигуры](docs/Create-Circle.jpg)
 
 ### Просмотр списка фигур
-![Список фигур](docs/Print Shapes.jpg)
+![Список фигур](docs/Print-Shapes.jpg)
 
 ### Удаление фигуры
-![Удаление фигуры](docs/Delete Shape.jpg)
+![Удаление фигуры](docs/Delete-Shape.jpg)
 
 ### Удаление всех фигур
-![Удаление фигуры](docs/Delete All Shapes.jpg)
+![Удаление фигуры](docs/Delete-All-Shapes.jpg)
 
 
 
