@@ -1,0 +1,14 @@
+from .shape import Shape
+
+class Circle(Shape):
+    def __init__(self, x: float, y: float, radius: float) -> None:
+        super().__init__()
+        self.x = x
+        self.y = y
+        self.radius = radius
+
+    def info(self) -> str:
+        return (
+            f"Круг(ID: {self.shape_id}, центр: ({self.x}, {self.y}), "
+            f"радиус: {self.radius})"
+        )
