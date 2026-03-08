@@ -1,4 +1,9 @@
+from typing import Callable
+from functools import wraps
+
 from shapes import Shape
+from storage import JsonStorage
+from shapes import ShapeFactory
 
 
 class VectorEditor:
@@ -23,3 +28,43 @@ class VectorEditor:
         if not self.shapes:
             raise ValueError("Нет фигур для удаления.")
         self.shapes.clear()
+
+    def _init_storage(self,filename: str) -> None:
+        self.storage = JsonStorage(f"storage/data/{filename}.json")
+
+    @staticmethod
+    def hasattr_storage(func) -> Callable:
+        @wraps(func)
+        def wrapper(self, *args, **kwargs):
+            try:
+                return func(self, *args, **kwargs)
+            except AttributeError:
+                print("Хранилище не инициализировано.")
+        return wrapper
+        
+    @hasattr_storage
+    def save(self) -> None:
+        data = [shape.to_dict() for shape in self.shapes.values()]
+        self.storage.save(data)
+
+    @hasattr_storage
+    def load(self) -> None:
+        data = self.storage.load()
+        if data is None:
+            print("Нет данных для загрузки.")
+            return
+        try:
+            self.delete_all() 
+        except ValueError:
+            pass
+
+        for item in data:
+            try:
+                shape = ShapeFactory.create_from_dict(item)
+                self.shapes[shape.shape_id] = shape
+            except ValueError as e:
+                print(f"Ошибка при загрузке фигуры: {e}")
+
+        Shape.rebuild_id(self.shapes)
+
+    
