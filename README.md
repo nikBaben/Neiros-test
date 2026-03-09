@@ -74,6 +74,9 @@ docker run -it --name vector-cli vector-editor
 ![Удаление фигуры](docs/v2/Delete-All-Shapes.jpg)
 
 ### Работа с файлом
+![Удаление фигуры](docs/v2/File-Menu.jpg)
+
+### Выбор файла
 ![Удаление фигуры](docs/v2/Init-File.jpg)
 
 ### Загрузка из файла
