@@ -44,44 +44,45 @@ docker run -it --name vector-cli vector-editor
 ### 🖥 Демонстрация работы
 
 ### Меню
-![Создание фигуры](docs/v2/Menu.jpg)
+![Главное меню](docs/v2/Menu.jpg)
 
 ### Создание Точки
-![Создание фигуры](docs/v2/Create-Point.jpg)
+![Создание фигуры точка](docs/v2/Create-Point.jpg)
 
 ### Создание Линии
-![Создание фигуры](docs/v2/Create-Line.jpg)
+![Создание фигуры линия](docs/v2/Create-Line.jpg)
 
 ### Создание Квадрата
-![Создание фигуры](docs/v2/Create-Square.jpg)
+![Создание фигуры квадрат](docs/v2/Create-Square.jpg)
 
 ### Создание Прямоугольника
-![Создание фигуры](docs/v2/Create-Rectangel.jpg)
+![Создание фигуры прямогольник](docs/v2/Create-Rectangel.jpg)
 
 ### Создание Круга
-![Создание фигуры](docs/v2/Create-Circle.jpg)
+![Создание фигуры круг](docs/v2/Create-Circle.jpg)
 
 ### Создание Овала
-![Создание фигуры](docs/v2/Create-Oval.jpg)
+![Создание фигуры овал](docs/v2/Create-Oval.jpg)
 
 ### Просмотр списка фигур
 ![Список фигур](docs/v2/Print-Shapes.jpg)
 
 ### Удаление фигуры
-![Удаление фигуры](docs/v2/Delete-Shape.jpg)
+![Удаление фигуры по id](docs/v2/Delete-Shape.jpg)
 
 ### Удаление всех фигур
-![Удаление фигуры](docs/v2/Delete-All-Shapes.jpg)
+![Удаление фигур](docs/v2/Delete-All-Shapes.jpg)
 
 ### Работа с файлом
-![Удаление фигуры](docs/v2/File-Menu.jpg)
+![Файловое меню](docs/v2/File-Menu.jpg)
 
 ### Выбор файла
-![Удаление фигуры](docs/v2/Init-File.jpg)
+![Выбор файла](docs/v2/Init-File.jpg)
 
 ### Загрузка из файла
-![Удаление фигуры](docs/v2/Load-File.jpg)
-![Удаление фигуры](docs/v2/Load-Data.jpg)
+![Содержание Json файла](docs/v2/Json-Data.jpg)
+![Загрузка из файла](docs/v2/Load-File.jpg)
+![Просмотр загруженных данных](docs/v2/Load-Data.jpg)
 
 
 
