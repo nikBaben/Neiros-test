@@ -56,8 +56,8 @@ def main() -> None:
                 print(error)
         
         elif choice == 10:
+            menu.clear_screen()
             while True:
-                menu.clear_screen()
                 menu.file_menu()
                 
                 try:
@@ -72,8 +72,12 @@ def main() -> None:
                     choice = str(input())
                     menu.register_file(choice)
                 
-                elif choice == 2: menu.save_to_file()
-                elif choice == 3: menu.load_from_file()
+                elif choice == 2: 
+                    menu.clear_screen()
+                    menu.save_to_file()
+                elif choice == 3: 
+                    menu.clear_screen()
+                    menu.load_from_file()
 
                 elif choice == 0:
                     print("Выход из меню работы с файлами.")

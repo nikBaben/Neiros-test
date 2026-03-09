@@ -43,16 +43,18 @@ class VectorEditor:
         return wrapper
         
     @hasattr_storage
-    def save(self) -> None:
+    def save(self) -> bool:
         data = [shape.to_dict() for shape in self.shapes.values()]
         self.storage.save(data)
 
+        return True
+
     @hasattr_storage
-    def load(self) -> None:
+    def load(self) -> bool:
         data = self.storage.load()
         if data is None:
             print("Нет данных для загрузки.")
-            return
+            return False
         try:
             self.delete_all() 
         except ValueError:
@@ -66,5 +68,7 @@ class VectorEditor:
                 print(f"Ошибка при загрузке фигуры: {e}")
 
         Shape.rebuild_id(self.shapes)
+        
+        return True
 
     

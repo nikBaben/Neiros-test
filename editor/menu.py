@@ -42,10 +42,12 @@ class Menu:
 
     @staticmethod
     def file_menu() -> None:
-        print("\n===== Векторный редактор =====")
+        print("\n===== Файл =====")
         print("1 - Выбрать файл для сохранения/загрузки ")
         print("2 - сохранить в файл")
         print("3 - загрузить из файла")
+        print("------------------------------\n")
+        print("0 - выход")
         print("==============================\n")
 
     @staticmethod
@@ -137,9 +139,9 @@ class Menu:
         print("Все фигуры удалены.")
 
     def save_to_file(self) -> None:
-        self.editor.save()
-        print("Фигуры сохранены в файл.")
+        if self.editor.save():
+            print("Фигуры сохранены в файл.")
 
     def load_from_file(self) -> None:
-        self.editor.load()
-        print("Фигуры загружены из файла.")
+        if self.editor.load():
+            print("Фигуры загружены из файла.")
