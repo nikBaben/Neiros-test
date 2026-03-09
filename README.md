@@ -43,46 +43,80 @@ docker run -it --name vector-cli vector-editor
 
 ### 🖥 Демонстрация работы
 
+### 🖥 Демонстрация работы
+
 ### Меню
-![Главное меню](docs/v2/Menu.jpg)
+<p align="center">
+  <img src="docs/v2/Menu.jpg" width="700">
+</p>
 
 ### Создание Точки
-![Создание фигуры точка](docs/v2/Create-Point.jpg)
+<p align="center">
+  <img src="docs/v2/Create-Point.jpg" width="700">
+</p>
 
 ### Создание Линии
-![Создание фигуры линия](docs/v2/Create-Line.jpg)
+<p align="center">
+  <img src="docs/v2/Create-Line.jpg" width="700">
+</p>
 
 ### Создание Квадрата
-![Создание фигуры квадрат](docs/v2/Create-Square.jpg)
+<p align="center">
+  <img src="docs/v2/Create-Square.jpg" width="700">
+</p>
 
 ### Создание Прямоугольника
-![Создание фигуры прямогольник](docs/v2/Create-Rectangel.jpg)
+<p align="center">
+  <img src="docs/v2/Create-Rectangel.jpg" width="700">
+</p>
 
 ### Создание Круга
-![Создание фигуры круг](docs/v2/Create-Circle.jpg)
+<p align="center">
+  <img src="docs/v2/Create-Circle.jpg" width="700">
+</p>
 
 ### Создание Овала
-![Создание фигуры овал](docs/v2/Create-Oval.jpg)
+<p align="center">
+  <img src="docs/v2/Create-Oval.jpg" width="700">
+</p>
 
 ### Просмотр списка фигур
-![Список фигур](docs/v2/Print-Shapes.jpg)
+<p align="center">
+  <img src="docs/v2/Print-Shapes.jpg" width="700">
+</p>
 
 ### Удаление фигуры
-![Удаление фигуры по id](docs/v2/Delete-Shape.jpg)
+<p align="center">
+  <img src="docs/v2/Delete-Shape.jpg" width="700">
+</p>
 
 ### Удаление всех фигур
-![Удаление фигур](docs/v2/Delete-All-Shapes.jpg)
+<p align="center">
+  <img src="docs/v2/Delete-All-Shapes.jpg" width="700">
+</p>
 
 ### Работа с файлом
-![Файловое меню](docs/v2/File-Menu.jpg)
+<p align="center">
+  <img src="docs/v2/File-Menu.jpg" width="700">
+</p>
 
 ### Выбор файла
-![Выбор файла](docs/v2/Init-File.jpg)
+<p align="center">
+  <img src="docs/v2/Init-File.jpg" width="700">
+</p>
 
 ### Загрузка из файла
-![Содержание Json файла](docs/v2/Json-Data.jpg)
-![Загрузка из файла](docs/v2/Load-File.jpg)
-![Просмотр загруженных данных](docs/v2/Load-Data.jpg)
 
+<p align="center">
+  <img src="docs/v2/Json-Data.jpg" width="700">
+</p>
+
+<p align="center">
+  <img src="docs/v2/Load-File.jpg" width="700">
+</p>
+
+<p align="center">
+  <img src="docs/v2/Load-Data.jpg" width="700">
+</p>
 
 
