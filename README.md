@@ -43,80 +43,46 @@ docker run -it --name vector-cli vector-editor
 
 ### 🖥 Демонстрация работы
 
-### 🖥 Демонстрация работы
-
 ### Меню
-<p align="center">
-  <img src="docs/v2/Menu.jpg" width="700">
-</p>
+<img src="docs/v2/Menu.jpg" width="600">
 
 ### Создание Точки
-<p align="center">
-  <img src="docs/v2/Create-Point.jpg" width="700">
-</p>
+<img src="docs/v2/Create-Point.jpg" width="600">
 
 ### Создание Линии
-<p align="center">
-  <img src="docs/v2/Create-Line.jpg" width="700">
-</p>
+<img src="docs/v2/Create-Line.jpg" width="600">
 
 ### Создание Квадрата
-<p align="center">
-  <img src="docs/v2/Create-Square.jpg" width="700">
-</p>
+<img src="docs/v2/Create-Square.jpg" width="600">
 
 ### Создание Прямоугольника
-<p align="center">
-  <img src="docs/v2/Create-Rectangel.jpg" width="700">
-</p>
+<img src="docs/v2/Create-Rectangel.jpg" width="600">
 
 ### Создание Круга
-<p align="center">
-  <img src="docs/v2/Create-Circle.jpg" width="700">
-</p>
+<img src="docs/v2/Create-Circle.jpg" width="600">
 
 ### Создание Овала
-<p align="center">
-  <img src="docs/v2/Create-Oval.jpg" width="700">
-</p>
+<img src="docs/v2/Create-Oval.jpg" width="600">
 
 ### Просмотр списка фигур
-<p align="center">
-  <img src="docs/v2/Print-Shapes.jpg" width="700">
-</p>
+<img src="docs/v2/Print-Shapes.jpg" width="600">
 
 ### Удаление фигуры
-<p align="center">
-  <img src="docs/v2/Delete-Shape.jpg" width="700">
-</p>
+<img src="docs/v2/Delete-Shape.jpg" width="600">
 
 ### Удаление всех фигур
-<p align="center">
-  <img src="docs/v2/Delete-All-Shapes.jpg" width="700">
-</p>
+<img src="docs/v2/Delete-All-Shapes.jpg" width="600">
 
 ### Работа с файлом
-<p align="center">
-  <img src="docs/v2/File-Menu.jpg" width="700">
-</p>
+<img src="docs/v2/File-Menu.jpg" width="600">
 
 ### Выбор файла
-<p align="center">
-  <img src="docs/v2/Init-File.jpg" width="700">
-</p>
+<img src="docs/v2/Init-File.jpg" width="600">
 
 ### Загрузка из файла
 
-<p align="center">
-  <img src="docs/v2/Json-Data.jpg" width="700">
-</p>
+<img src="docs/v2/Json-Data.jpg" width="600">
 
-<p align="center">
-  <img src="docs/v2/Load-File.jpg" width="700">
-</p>
+<img src="docs/v2/Load-File.jpg" width="600">
 
-<p align="center">
-  <img src="docs/v2/Load-Data.jpg" width="700">
-</p>
-
-
+<img src="docs/v2/Load-Data.jpg" width="600">
