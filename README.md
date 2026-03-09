@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/Neiros-logo.jpg" width="300">
+  <img src="docs/v1/Neiros-logo.jpg" width="300">
 </p>
 
 Тестовое задание для позиции **junior Python Backend Developer** в Neiros.
